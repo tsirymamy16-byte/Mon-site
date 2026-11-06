@@ -99,7 +99,38 @@
         <option value="">Accune</option>
     </select>
     <br><br>
+<input type="radio">Famme
+<input type="radio">Homme
+    <br><br>
 
-    
+    <input type="checkbox">Binary
+     <input type="checkbox">Pixel
+    <br><br>
+
+    <ul type="checkbox">
+        <li>d</li>
+        <li>f</li>
+    </ul>
+
+  <p>Player 1: Chris</p>
+
+  <script>
+    const para = document.querySelector('p');
+
+    para.addEventListener('click', updateName);
+
+    function updateName() {
+      const name = prompt('Enter a new name');
+      para.textContent = `Player 1: ${name}`;
+    }
+
+    function updateNane() {
+        const name = prompt('Entre a new name');
+        if (name) {
+            para.textContent = 'Player 1: ${name};
+        }
+    }
+  </script>
+
 </body>
 </html>
